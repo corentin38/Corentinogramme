@@ -1,0 +1,20 @@
+.gradle
+local.properties
+
+# Binaries
+build
+app/build
+
+# Editor files
+.idea
+app/app.iml
+
+# Various
+.directory
+
+# NDK build files
+libs
+obj
+
+# Android debug scripts tmp files
+android_crash_*
