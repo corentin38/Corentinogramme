@@ -18,3 +18,5 @@ obj
 
 # Android debug scripts tmp files
 android_crash_*
+
+*.iml
