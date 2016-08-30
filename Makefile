@@ -1,6 +1,6 @@
 APP=./app/build/outputs/apk/app-debug.apk
-APP_NAME=fr.avalun
-MAIN_CLASS=splashscreen.SplashScreen
+APP_NAME=moi.fr.corentinogramme
+MAIN_CLASS=Accueil
 
 .PHONY: all clean install uninstall build
 all: build
@@ -44,9 +44,6 @@ clearlog:
 
 stack:
 	adb shell dumpsys activity | grep -i run. | grep $(APP_NAME)
-
-install_key:
-	adb push apicrypt_key/ /mnt/sdcard
 
 # Useful for debug purpose
 
