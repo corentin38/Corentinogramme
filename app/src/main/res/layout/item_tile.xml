@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/tile_padding">
+
+    <ImageView
+        android:id="@+id/tile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/sogilis" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:alpha="0.3"
+        android:background="@color/black" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tile !"
-        />
+        android:id="@+id/tile_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="@string/tile_sogilis_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/article_titles" />
 
-</LinearLayout>
+</RelativeLayout>
