@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="tile_sogilis_title">Sogilis</string>
+    <string name="tile_studec_title">Studec</string>
+    <string name="tile_fastco_title">Fast Connect</string>
+    <string name="tile_primekey_title">Primekey</string>
+    <string name="tile_bosh_title">Bosh</string>
+    <string name="tile_lthe_title">LTHE</string>
+
+    <string-array name="experiences">
+        <item>Sogilis</item>
+        <item>Studec</item>
+        <item>Fast Connect</item>
+        <item>Primekey</item>
+        <item>Bosh</item>
+        <item>LTHE</item>
+    </string-array>
+    <array name="experiences_avator">
+        <item>@drawable/sogilis</item>
+        <item>@drawable/studec</item>
+        <item>@drawable/software</item>
+        <item>@drawable/primekey</item>
+        <item>@drawable/bosh</item>
+        <item>@drawable/lthe</item>
+    </array>
+
     <string-array name="places">
         <item>Palais Garnie</item>
         <item>Piazza del Duomo</item>
@@ -18,6 +43,8 @@
         <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
         <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
     </string-array>
+
+
     <string-array name="place_details">
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -71,19 +98,19 @@
         <item>Cape Town, South Africa</item>
     </string-array>
     <array name="place_avator">
-        <item>@drawable/a_avator</item>
-        <item>@drawable/b_avator</item>
-        <item>@drawable/c_avator</item>
-        <item>@drawable/d_avator</item>
-        <item>@drawable/e_avator</item>
-        <item>@drawable/f_avator</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
     </array>
     <array name="places_picture">
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
-        <item>@drawable/d</item>
-        <item>@drawable/e</item>
-        <item>@drawable/f</item>
+        <item>@drawable/grenoble</item>
+        <item>@drawable/grenoble</item>
+        <item>@drawable/grenoble</item>
+        <item>@drawable/grenoble</item>
+        <item>@drawable/grenoble</item>
+        <item>@drawable/grenoble</item>
     </array>
 </resources>
