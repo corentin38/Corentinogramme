@@ -20,20 +20,13 @@
     <string name="tab_blog_title">Actualité</string>
 
     <string name="biographie">
-      Je m'appelle Corentin Marciau et je suis développeur à Sogilis,
-      une société de service atypique à Grenoble. J'aime le piano,
+      Je m\'appelle Corentin Marciau et je suis développeur à Sogilis,
+      une société de service atypique à Grenoble. J\'aime le piano,
       courir et les jeux de société.
 
-      L'open source m'a toujours attiré et je m'intéresse ces temps-ci
+      L\'open source m\'a toujours attiré et je m\'intéresse ces temps-ci
       au développement Android et à la Blockchain.
     </string>
-
-    <string name="tile_sogilis_title">Sogilis</string>
-    <string name="tile_studec_title">Studec</string>
-    <string name="tile_fastco_title">Fast Connect</string>
-    <string name="tile_primekey_title">Primekey</string>
-    <string name="tile_bosh_title">Bosh</string>
-    <string name="tile_lthe_title">LTHE</string>
 
     <string name="card_title_bb0056">Sommet du G56 sous haute surveillance</string>
     <string name="card_title_capitole">Capitole du libre 2016 !</string>
@@ -43,12 +36,12 @@
       nous prévoyons une petite sauterie.
     </string>
     <string name="card_desc_capitole">
-      En approche, Capitole du libre 2016, à Toulouse, s'annonce être
-      l'occasion d'un week-end festif en plus qu'un moment de
-      rencontre et d'apprentissage.
+      En approche, Capitole du libre 2016, à Toulouse, s\'annonce être
+      l\'occasion d\'un week-end festif en plus qu\'un moment de
+      rencontre et d\'apprentissage.
     </string>
     <string name="card_desc_grenoble">
-      Ah ! Qu'il est doux de retrouver le pavé que plus jeune, on a
+      Ah ! Qu\'il est doux de retrouver le pavé que plus jeune, on a
       exploré sans être sûr de ses pas !
     </string>
 
