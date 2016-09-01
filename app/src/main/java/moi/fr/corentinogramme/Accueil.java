@@ -46,9 +46,9 @@ public class Accueil extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
-        adapter.addFragment(new ListFragment(), "List");
-        adapter.addFragment(new TileFragment(), "Tile");
-        adapter.addFragment(new CardFragment(), "Card");
+        adapter.addFragment(new PresentationFragment(), getString(R.string.tab_presentation_title));
+        adapter.addFragment(new TileFragment(), getString(R.string.tab_cv_title));
+        adapter.addFragment(new CardFragment(), getString(R.string.tab_blog_title));
         viewPager.setAdapter(adapter);
     }
 
