@@ -26,22 +26,6 @@
       au développement Android et à la Blockchain.
     </string>
 
-    <string name="card_title_bb0056">Sommet du G56 sous haute surveillance</string>
-    <string name="card_title_capitole">Capitole du libre 2016 !</string>
-    <string name="card_title_grenoble">Retour à Grenoble</string>
-    <string name="card_desc_bb0056">
-      Pour accueillir Gildas comme il se doit dans notre organisation,
-      nous prévoyons une petite sauterie.
-    </string>
-    <string name="card_desc_capitole">
-      En approche, Capitole du libre 2016, à Toulouse, s\'annonce être
-      l\'occasion d\'un week-end festif en plus qu\'un moment de
-      rencontre et d\'apprentissage.
-    </string>
-    <string name="card_desc_grenoble">
-      Ah ! Qu\'il est doux de retrouver le pavé que plus jeune, on a
-      exploré sans être sûr de ses pas !
-    </string>
 
     <string name="drawer_title">Bienvenue !</string>
     <string name="drawer_tabs">À propos</string>

@@ -42,18 +42,18 @@ public class CardFragment extends Fragment {
     }
 
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
-        private static final int LENGTH = 18;
-        private final String[] mPlaces;
-        private final String[] mPlaceDesc;
-        private final Drawable[] mPlacePictures;
+        private final String[] mPosts;
+        private final String[] mPostsDesc;
+        private final Drawable[] mPostsPictures;
+
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
-            mPlaces = resources.getStringArray(R.array.places);
-            mPlaceDesc = resources.getStringArray(R.array.place_desc);
-            TypedArray a = resources.obtainTypedArray(R.array.places_picture);
-            mPlacePictures = new Drawable[a.length()];
-            for (int i = 0; i < mPlacePictures.length; i++) {
-                mPlacePictures[i] = a.getDrawable(i);
+            mPosts = resources.getStringArray(R.array.posts);
+            mPostsDesc = resources.getStringArray(R.array.posts_descs);
+            TypedArray a = resources.obtainTypedArray(R.array.posts_pictures);
+            mPostsPictures = new Drawable[a.length()];
+            for (int i = 0; i < mPostsPictures.length; i++) {
+                mPostsPictures[i] = a.getDrawable(i);
             }
             a.recycle();
         }
@@ -65,14 +65,14 @@ public class CardFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-            holder.picture.setImageDrawable(mPlacePictures[position % mPlacePictures.length]);
-            holder.name.setText(mPlaces[position % mPlaces.length]);
-            holder.description.setText(mPlaceDesc[position % mPlaceDesc.length]);
+            holder.picture.setImageDrawable(mPostsPictures[position]);
+            holder.name.setText(mPosts[position]);
+            holder.description.setText(mPostsDesc[position]);
         }
 
         @Override
         public int getItemCount() {
-            return LENGTH;
+            return mPosts.length;
         }
 }
 }
